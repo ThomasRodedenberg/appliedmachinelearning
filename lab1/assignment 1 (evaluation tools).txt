@@ -1,0 +1,45 @@
+1. 
+a) K-NN is does classification and KMeans does clustering.
+
+b)K-NN is supervised since it uses reference labels for the training data
+while KMeans doesn't, making it unsupervised.
+
+2.
+a)
+Rows: The correct labels for the data
+Columns: The predicted labels produced.
+
+b)
+Precision: Sum of true positives divided by sum of 
+true positives plus and of false positives.
+
+Recall: Sum of true positives divided by sum of 
+true positives and false negatives.
+
+F1-score: 2*precision*recall/(precision + recall), a weighted 
+harmonic mean of the precision and recall
+
+Accuracy: Computes subset accuracy, the set of labels predicted 
+for a sample must match the set of corresponding correct labels.
+
+Macro avg: averaging the precision and recall of the system on 
+different sets.
+
+Weighted avg: averaging the support-weighted mean per label using 
+a weight that depends on the number of true labels of each class
+
+The different rows represents the diffrent classes
+
+c)
+Completeness score: If all the data points that are members of a given 
+class are elements of the same cluster satisfies completeness, regardless of label.
+
+Homogeneity score: If all of its clusters contain only data points which 
+are members of a single class it satisfies homogeneity.
+
+Mutual information Score: A measure of the similarity between two labels of the same data
+
+d)Clustering could be a way to classify, or help classify, data that that 
+hasn't been labeled. Once youv'e identified clusters you could 'manually'
+classify them correctly as opposed to the random classification in our 
+example. 
